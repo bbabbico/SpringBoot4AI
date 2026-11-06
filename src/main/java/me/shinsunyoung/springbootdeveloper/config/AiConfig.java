@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AiConfig {
-
     @Bean
     public ChatModel chatModel() {
         return new PollinationsChatModel();
